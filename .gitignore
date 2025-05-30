@@ -1,0 +1,45 @@
+*.log
+*.bak
+
+node_modules
+coverage
+coverage.json
+*.env
+.env.bak
+coverage
+.coverage.json
+ContractAddress.json
+types
+abi
+.DS_Store
+.idea/
+.npmrc
+
+# TypeChain files
+/typechain
+/typechain-types
+
+# Hardhat files
+cache
+artifacts
+deployed/local
+deployed/hardhat
+# !deployed/config.ts
+# !deployed/**/index.ts
+# !deployed/*/index.ts
+
+# scripts/*
+# !scripts/deploy.js
+# !scripts/smokeTest.js
+# !scripts/Utils.js
+# !scripts/createTestingEnvironment.js
+# !scripts/testInTestingEnvironment.js
+# !scripts/contract_config_check.js
+
+# vscode
+settings.json
+generated-types
+.openzeppelin
+calldata_file.ini
+polygon-cli/
+result_*.out
